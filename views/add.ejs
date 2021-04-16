@@ -1,0 +1,22 @@
+<%- include('elems/navbar') %>
+    <div class="container" style="max-width: 600px;">
+    <h1>Add new element</h1>
+    <form action="/" method="POST">
+        <div class="mb-3">
+            <label for="title" class="form-label">Write your title</label>
+            <input type="text" class="form-control" id="title" placeholder="Example input placeholder" name="title">
+        </div>
+        <div class="mb-3">
+            <label for="text">Write here!</label>
+            <textarea class="form-control" placeholder="Leave a comment here" id="text" style="height: 100px" name="text"></textarea>
+        </div>
+
+        <a href="/" class="btn btn-primary mt-3">Cancel</a>
+        <button type="reset" class="btn btn-primary mt-3">Reset</button>
+        <button type="submit" class="btn btn-success mt-3">SAVE</button>
+    </form>
+    </div>
+    
+</body>
+
+</html>
