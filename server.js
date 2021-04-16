@@ -59,4 +59,4 @@ app
     })
 
 
-app.listen(port, () => console.log(`Listening on ${port}`))
+app.listen(process.env.PORT || port)
