@@ -10,7 +10,7 @@ let id = 0
 const db = []
 
 app.get('/', (req, res) => {
-    res.render('index.ejs', { blogposts: [...db].reverse(), title: "Document" }) // I can pass alot here!
+    res.render('index.ejs', { blogposts: [...db].reverse(), title: "Fake DB CMS" }) // I can pass alot here!
 })
 
 app.get('/add', (req, res) => {
